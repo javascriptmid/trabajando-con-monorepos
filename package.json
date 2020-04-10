@@ -1,0 +1,19 @@
+{
+  "name": "jsmid",
+  "version": "1.0.0",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "repository": "git@github.com:javascriptmid/trabajando-con-monorepos.git",
+  "author": "jerolan <jerome.olvera@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "react": "^16.13.1"
+  },
+  "devDependencies": {
+    "@types/react": "^16.9.34",
+    "cross-env": "^7.0.2",
+    "typescript": "^3.8.3"
+  }
+}

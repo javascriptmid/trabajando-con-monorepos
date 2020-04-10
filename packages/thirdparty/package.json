@@ -1,0 +1,20 @@
+{
+  "name": "@jsmid/thirdparty",
+  "version": "1.0.0",
+  "license": "MIT",
+  "dependencies": {
+    "lodash.isempty": "^4.4.0"
+  },
+  "main": "dist/isEmpty.js",
+  "module": "dist/isEmpty.js",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "postinstall": "yarn build",
+    "build": "tsc"
+  },
+  "devDependencies": {
+    "@types/lodash.isempty": "^4.4.6"
+  }
+}
